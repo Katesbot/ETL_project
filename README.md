@@ -14,6 +14,9 @@ After taking the data from a CSV and putting it into a data frame, we needed to 
 
 Load -  
 
-The database Wasted Away in Wine Land is hosted on Postgres and comprised of 2 tables the  state_df and the wine_state_df. There is a third table on the server with this information joined as one called the us_transformed_wine_df.  The state_df is a table lists the states containing the wineries and their relevant latitude longitude coordinates. The primary key province is a foreign key in our second table the wine_state_df containing the wine quality data & winery information.  We chose to use SQL as it best fit our data structure.
+The database Wasted Away in Wine Land is hosted on Postgres and comprised of 2 tables the  state_df and the us_transformed_wine_df. There is a third table on the server with this information joined as one called the wine_state_df.  The state_df is a table lists the states containing the wineries and their relevant latitude longitude coordinates. The province is a foreign key in our second table the us_transformed_wine_df containing the wine quality data & winery information. We chose to use SQL as it best fit our tabular data structure.
 
 
+Limitations - 
+
+Due to the size of the data set pulling average weather data was not possible with a google or free weather API. 
