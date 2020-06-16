@@ -19,4 +19,4 @@ The database Wasted Away in Wine Land is hosted on Postgres and comprised of 2 t
 
 Limitations - 
 
-Due to the size of the data set pulling average weather data was not possible with a google or free weather API. 
+Due to the size of the data set pulling average weather data was not possible with a google or free weather API. Using Lat and Long at the state level was not as specific as we would have liked if we were to do analysis.
